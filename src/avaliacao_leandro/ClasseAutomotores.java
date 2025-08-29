@@ -20,4 +20,32 @@ public class ClasseAutomotores {
 		
 		
 	}
+	public String pegarcor() {
+		return corAt;
+	}
+	public String pegarmarca() {
+		return marcaAt;
+	}
+	public String pegartipo() {
+		return tipoAt;
+	}
+	public String pegarmodelo() {
+		return modeloAt;
+	}
+	
+	public void alterarCor(String corPar) {
+		this.corAt = corPar;
+	}
+	
+	public void alterarMarca(String marcaPar) {
+		this.marcaAt = marcaPar;
+	}
+	
+	public void alterarTipo(String tipoPar) {
+		this.tipoAt = tipoPar;
+	}
+	
+	public void alterarModelo(String modeloPar) {
+		this.modeloAt = modeloPar;
+	}
 }
