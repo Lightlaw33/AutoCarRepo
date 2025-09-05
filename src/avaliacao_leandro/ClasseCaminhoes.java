@@ -9,5 +9,15 @@ public ClasseCaminhoes(String corPar, String tipoPar, String modeloPar, String m
 		
 		this.cargaSuportadaAt = cargaSuportadaPar;
 	}
+	public float pegarcarga() {
+	return cargaSuportadaAt;
+}
+
+
+	public void alterarcargaSuportada(float cargaSuportadaPar) {
+	this.cargaSuportadaAt = cargaSuportadaPar;
+}
+
 
 }
+
